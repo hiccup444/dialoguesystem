@@ -1,0 +1,62 @@
+GridBackground {
+    --grid-background-color: #282828;
+    --line-color: rgba(193, 196, 192, 0.1);
+    --thick-line-color: rgba(193, 196, 192, 0.15);
+    --spacing: 20;
+}
+
+.start-node #title {
+    background-color: #2E7D32;
+}
+
+.start-node #title-label {
+    color: white;
+}
+
+.dialogue-node #title {
+    background-color: #1565C0;
+}
+
+.dialogue-node #title-label {
+    color: white;
+}
+
+.dialogue-node-bonnie #title {
+    background-color: #FF4C58;
+}
+
+.dialogue-node-bonnie #title-label {
+    color: white;
+}
+
+.dialogue-node-bonnie-thought #title {
+    background-color: #FFA3A9;
+}
+
+.dialogue-node-bonnie-thought #title-label {
+    color: black;
+}
+
+.choice-node #title {
+    background-color: #7B1FA2;
+}
+
+.choice-node #title-label {
+    color: white;
+}
+
+.end-node #title {
+    background-color: #C62828;
+}
+
+.end-node #title-label {
+    color: white;
+}
+
+.dialogue-node {
+    min-width: 200px;
+}
+
+.choice-node {
+    min-width: 200px;
+}
